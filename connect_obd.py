@@ -6,7 +6,7 @@ import time
 # fast=False desativa otimizações que esses clones podem não suportar corretamente.
 # timeout=30 aumenta o tempo que a biblioteca esperará por uma resposta.
 # [30, 31, 32]
-connection = obd.OBD(portstr='COM5', fast=False, timeout=30)
+connection = obd.OBD(portstr='COM3', fast=False, timeout=30)
 
 # Verifica o status da conexão
 if connection.is_connected():
